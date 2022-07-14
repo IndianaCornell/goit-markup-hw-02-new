@@ -1,0 +1,212 @@
+:root {
+    --main-header-color: #FFFFFF;
+    --header-color: #212121;
+    --description-color: #757575;
+    --navigation-color: #757575;
+    --logo-main-color: #000000;
+    --logo-additional-color: #2196F3;
+}
+
+body {font-family: "Roboto", "Raleway", sans-serif;
+    color:#212121;
+}
+
+button input a {
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* ----------- header ----------- */
+.logo-color {
+    color: var(--logo-additional-color)
+}
+
+.logo { 
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--logo);
+}
+
+.nav-item-link:hover,
+.nav-item-link:focus {
+    color:#2196F3;
+}
+
+.nav-item-link,
+.address-items {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--header-color)
+}
+
+.contacts-items-link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--navigation-color)
+}
+
+.contacts-items-link:hover,
+.contacts-items-link:focus {
+    color: #2196F3;
+}
+
+/* ----------- main ----------- */
+
+.main-header {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--main-header-color);
+        background-color: #2F303A;
+}
+
+.btn-main {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--main-header-color)
+}
+
+.about-us-merit {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--header-color);
+}
+
+.about-us-description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--navigation-color)
+}
+
+.our-job {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--header-color)
+}
+
+.our-team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--header-color);
+}
+
+.our-team-names {
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        color: var(--header-color)
+}
+
+.our-team-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    
+        color: var(--description-color);
+}
+
+/* ---------- footer ----------*/
+
+.footer {
+    background-color: #2F303A;
+}
+
+.address-items {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+color: var(--main-header-color)
+}
+
+.footer-logo {
+        font-family: 'Raleway';
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.2;
+            letter-spacing: 0.03em;
+            color: var(--main-header-color);
+
+}
+
+
+/* ----------- portfolio ----------- */
+
+.btn {
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.portfolio-example-titles {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+}
+
+.portfolio-example-descrition {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--navigation-color);
+}
+
+.address-location {
+        font-weight: 400; 
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;  
+        color: var(--main-header-color)
+}
+
+.address-contacts {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
