@@ -1,14 +1,20 @@
 :root {
     --main-header-color: #FFFFFF;
-    --header-color: #212121;
+    --second-heading-color: #212121; 
     --description-color: #757575;
-    --navigation-color: #757575;
-    --logo-main-color: #000000;
-    --logo-additional-color: #2196F3;
+    --header-logo-color: #000000;
+    --footer-logo-color: #FFFFFF; 
+    --hover-color: #2196F3; 
+    --footer-adress-color: #FFFFFF; 
+    --web-logo: #2196F3;
+    --service-btn-text: #FFFFFF; 
+    --service-btn-color: #2196F3;
+    --filter-btn-hover-text: #FFFFFF;
+    --filter-btn-hover-color: #2196F3;
+    --filter-btn-text: #212121;
 }
 
 body {font-family: "Roboto", "Raleway", sans-serif;
-    color:#212121;
 }
 
 button input a {
@@ -24,189 +30,184 @@ button input a {
     text-decoration: none;
 }
 
-/* ----------- header ----------- */
-.logo-color {
-    color: var(--logo-additional-color)
+/* -------------- studio\portfolio header -------------- */
+
+.header-web-logo {
+    color: var(--web-logo);
 }
 
-.logo { 
+.header-logo {
+    font-family: 'Raleway'; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--header-logo-color);
+}
+
+.header-navigation-link:hover,
+.header-navigation-link:focus {
+    color: var(--hover-color)
+}
+.header-navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--second-heading-color);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: var(--hover-color)
+}
+.header-address-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--description-color)
+}
+
+
+/* -------------- studio-main -------------- */
+
+.btn-section {
+    background-color: #2F303A;
+}
+
+.btn-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-header-color)
+}
+
+.main-btn {
+    color: var(--service-btn-text);
+    background-color: var(--service-btn-color)
+}
+
+.benefits-heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-heading-color);
+}
+
+.benefits-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-heading-color);
+}
+
+.our-job-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-heading-color);
+}
+
+.our-team-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-heading-color);
+}
+
+.our-team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-heading-color)
+}
+
+.our-team-job-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+
+/* -------------- portfolio main -------------- */
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--filter-btn-hover-text);
+    background-color: var(--filter-btn-hover-color);
+}
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.example-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--second-heading-color);
+}
+
+.example-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+/* -------------- studio/porfolio footer -------------- */
+.footer-address {
+    background-color: #2F303A;
+}
+
+.footer-web-logo {
+    color: var(--web-logo);
+}
+
+.footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: var(--logo);
+    color: var(--footer-logo-color);
 }
 
-.nav-item-link:hover,
-.nav-item-link:focus {
-    color:#2196F3;
-}
-
-.nav-item-link,
-.address-items {
-    font-weight: 500;
+.address {
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    color: var(--header-color)
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-adress-color)
 }
 
-.contacts-items-link {
+.footer-address-description {
     font-family: 'Roboto';
-    font-weight: 500;
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    color: var(--navigation-color)
-}
-
-.contacts-items-link:hover,
-.contacts-items-link:focus {
-    color: #2196F3;
-}
-
-/* ----------- main ----------- */
-
-.main-header {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: var(--main-header-color);
-        background-color: #2F303A;
-}
-
-.btn-main {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: var(--main-header-color)
-}
-
-.about-us-merit {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.87;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--header-color);
-}
-
-.about-us-description {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--navigation-color)
-}
-
-.our-job {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--header-color)
-}
-
-.our-team {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--header-color);
-}
-
-.our-team-names {
-    font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
-        letter-spacing: 0.03em;
-        color: var(--header-color)
-}
-
-.our-team-title {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-    
+    line-height: 1.71;
+    letter-spacing: 0.03em;
         color: var(--description-color);
-}
-
-/* ---------- footer ----------*/
-
-.footer {
-    background-color: #2F303A;
-}
-
-.address-items {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-color: var(--main-header-color)
-}
-
-.footer-logo {
-        font-family: 'Raleway';
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 1.2;
-            letter-spacing: 0.03em;
-            color: var(--main-header-color);
-
-}
-
-
-/* ----------- portfolio ----------- */
-
-.btn {
-    font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        letter-spacing: 0.03em;
-}
-
-.portfolio-example-titles {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        letter-spacing: 0.06em;
-}
-
-.portfolio-example-descrition {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: var(--navigation-color);
-}
-
-.address-location {
-        font-weight: 400; 
-        font-style: normal;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;  
-        color: var(--main-header-color)
-}
-
-.address-contacts {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
 }
